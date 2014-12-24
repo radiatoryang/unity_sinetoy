@@ -71,6 +71,8 @@ public class SineUI : MonoBehaviour {
 		SetMode ();
 		currentWaver.amplitude = 2f;
 		currentWaver.frequency = 2f;
+		currentMover.moveY.amplitude = 2f;
+		currentMover.moveY.frequency = 2f;
 		UpdateSliders ();
 	}
 
